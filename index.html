@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Employee Stuff</title>
+    <title>Choo Choo</title>
 </head>
 
 <body>
@@ -23,11 +23,10 @@
         </div>
         <div class="row">
             <div class="col-md">
-                <div class="panel-title" id="employee-form">
-                    <h3>
-                        <i class="far fa-user-circle"></i> Add Train</h3>
+                <div class="panel-title" id="train-form">
+                    <h3>Add Train</h3>
                 </div>
-                <div class="panel panel-body">
+                <div class="panel panel-body" id="train-info">
                     <form role="form">
                         <div class="form-group">
                             <label for="search">Train Name: </label>
@@ -55,12 +54,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="panel-title" id="current-employees">
-                <h3>
-                    <i class="far fa-address-card"></i> Current Train Schedule</h3>
+            <div class="panel-title" id="current-trains">
+                <h3>Current Train Schedule</h3>
             </div>
         </div>
-        <div class="row" id="namePanel">
+        <div class="row panel panel-body" id="namePanel">
             <div class="col-md-3" id="tName">
                 <h4>Train Name</h4>
             </div>
@@ -77,10 +75,8 @@
                 <h4>Minutes Away</h4>
             </div>
         </div>
-        <hr>
-        <div class="row" id="employeeArr"></div>
     </div>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>

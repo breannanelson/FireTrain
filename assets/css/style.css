@@ -1,19 +1,19 @@
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: 'Abel', sans-serif;
 }
 
 .jumbotron {
     text-align: center;
     margin-top: 5%;
-    background-image: url('../images/newimage.JPG');
+    background-image: url('../images/background1.JPG');
     background-size: cover;
-    color: white;
+    color: rgb(216, 185, 191);
 }
 
-.jumbotron h1 {
+.jumbotron, h1, p {
     font-family: 'Libre Baskerville', serif;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px rgba(29, 26, 26, 0.877);
 }
 
 .form-line {
